@@ -1,5 +1,5 @@
 {
-    "name": "farazdagi/twig-cli",
+    "name": "shumkov/twig-cli",
     "description": "Command line Twig processor",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -7,14 +7,17 @@
         {
             "name": "Victor Farazdagi",
             "email": "simple.square@gmail.com"
+        },
+        {
+            "name": "Ivan Shumkov",
+            "email": "ivan@shumkov.ru"
         }
     ],
     "autoload": {
         "psr-4": {"TwigCli\\": "src/"}
     },
     "require": {
-        "symfony/console": "2.0.7",
-        "symfony/config": "2.0.7",
-        "twig/twig": "1.6.5"
+        "symfony/console": "~3.1",
+        "twig/twig": "~1"
     }
 }
